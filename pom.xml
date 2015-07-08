@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<!-- 기본 모듈 정보 설정 -->
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>kr.co.jwsnt</groupId>
+	<artifactId>jw-core</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<!-- 설정 정보 -->
+	<properties>
+		<log4j-version>2.3</log4j-version>
+		<apache-poi-version>3.12</apache-poi-version>
+	</properties>
+
+	<!-- 의존관계 설정 -->
+	<dependencies>
+
+		<!-- APACHE LOG4J-SLF4J-IMPL : 2015.07.08 -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-slf4j-impl</artifactId>
+			<version>${log4j-version}</version>
+		</dependency>
+
+		<!-- APACHE LOG4J-CORE : 2015.07.08 -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${log4j-version}</version>
+		</dependency>
+
+		<!-- APACHE LOG4J-API : 2015.07.08 -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>${log4j-version}</version>
+		</dependency>
+
+		<!-- APACHE COMMONS-IO : 2015.07.08 -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+		</dependency>
+
+		<!-- APACHE COMMONS-LANG3 : 2015.07.08 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.4</version>
+		</dependency>
+
+		<!-- APACHE POI-SCRATCHPAD : 2015.07.08 -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>${apache-poi-version}</version>
+		</dependency>
+
+		<!-- APACHE POI-OOXML : 2015.07.08 -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${apache-poi-version}</version>
+		</dependency>
+
+		<!-- APACHE POI : 2015.07.08 -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${apache-poi-version}</version>
+		</dependency>
+
+	</dependencies>
+</project>
